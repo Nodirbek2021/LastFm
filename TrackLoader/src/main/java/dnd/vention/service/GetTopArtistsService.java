@@ -135,8 +135,6 @@ public class GetTopArtistsService {
 //        System.out.println(artistObjectsFromDB.toString());
         Gson gson = new Gson();
         String response = gson.toJson(artistObjectsFromDB);
-
-
         return response;
 
 
